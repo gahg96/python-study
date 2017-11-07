@@ -12,7 +12,7 @@ PyQt5 教程
 """
 
 import sys
-from .QtWidgets import QApplication, QWidget, QCalendarWidget, QLabel
+from PyQt5.QtWidgets import QApplication, QWidget, QCalendarWidget, QLabel
 from PyQt5.QtCore import QDate
 
 class Example(QWidget):
